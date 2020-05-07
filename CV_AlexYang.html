@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang = "de">
+
+<head>
+	<title>Lebenslauf von Alex Yang</title>
+	<mate name = "keywords" content = "Lebenslauf"/>
+	<mate name = "description" content = "Alex Yang Lebenslauf"/>
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<style>	
+	
+		@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+		
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: 'Manrope', sans-serif;
+			list-style: none;
+			padding: 0;
+		}
+		
+		body{
+			background : black;
+			font-size: 14px;
+			line-height: 22px;
+			color: white;
+		}
+		
+		.bold{
+			font-weight: 700;
+			font-size: 20px;
+			text-transform: capitalize;
+		}
+		
+		.semi_bold{
+			font-weight: 500;
+			font-size: 16px;
+			}
+			
+		.CV{
+			width: 800px;
+			height: auto;
+			display:flex;
+			margin: 50px auto;
+			}
+		
+		.CV .CV_left{
+			width: 280px;
+			backgroud: blue;
+		}
+		
+		.CV .CV_right {
+		  width: 520px;
+		  background: black;
+		  padding-right: 20px;
+		}	
+		
+		.CV .CV_right .title{
+			font-size: 28px;
+			font-family: 'Manrope', sans-serif;
+		}
+		
+		
+		
+		.CV .CV_left .CV_profil{
+			width: 100%;
+			height: 370px;
+		}
+		
+		.CV .CV_left .CV_content{
+			padding: 0 5px;
+		}
+		
+		.CV .CV_left .CV_content .title{
+			font-size: 22px;
+		}
+		
+		.CV .CV_left .CV_item .title{
+			margin-bottom: 10 px;
+		}
+		
+		.CV .CV_item{
+			padding: 25px 0;
+			border-bottom: 2px solid #b1eaff;
+		}
+		
+		.CV .CV_left .CV_item:last-child{
+			border-bottom: 0px;
+		}
+
+        .CV .CV_right .CV_item:last-child{
+			border-bottom: 0px;
+		}
+		
+		.CV .CV_left .social ul li{
+			display: flex;
+			align-items: center;
+			margin-top: 5px;
+			margin-bottom: 5px;
+		}
+		
+		.CV .CV_left .social ul li .icon{
+			width: 45px;
+			height: 45px;
+			background: #fff;
+			color: #0bb5f4;
+			border-radius: 50%;
+			fonz_size: 20px;
+			postion:relative;
+		}
+		
+		.CV .CV_left .social ul li .icon i{
+			position: relative;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+					
+		.skills{
+			width: 260px;
+			margin: 0px ;
+			color: white;
+			font-family: 'Manrope', sans-serif;
+		}
+		
+		.skills .title{
+			font-size: 22px;
+		}
+		
+		.skills li{
+			margin: 10px 0;
+			padding: 0 5px;
+			font-family: 'Manrope', sans-serif;
+		}
+		
+		.bar{
+			background: #353b48;
+			display: block;
+			height: 2px;
+			border: 1px solid rgba(0,0,0,0.3);
+			border-radius: 3px;
+			overflow: hidden;
+			box-shadow: 0 0 10px #2187e7b3;
+			}
+			
+		.bar span{
+			height: 2px;
+			float: left;
+			background: #2187e7;
+			}
+		
+		.html{
+			width: 90%;
+			animation: html 2s;
+			}
+			
+		.css{
+			width: 65%;
+			animation: html 2s;
+			}
+			
+		.js {
+			width: 75%;
+			animation: html 2s;
+		}
+		
+		@keyframes html{
+			0%{
+				Width: 0%;
+			}
+		}
+		
+		.CV .CV_right .CV_item{
+			margin: 15px 0;
+			padding: 0 10px;
+			padding-bottom: 15px;
+			}
+		
+		.CV .CV_right .CV_item .second_ul{
+			padding: 0 20px;			
+		}
+		
+		.CV .CV_right .hobby ul{
+			display: flex;
+			justify-content: space-between;
+		}
+		
+		.CV .CV_right .hobby ul li{
+			width: 80px;
+			height: 80px;
+			border: 2px solid #0bb5f4;
+			border-radius: 50%;
+			postion: relative;
+			color: #0bb5f4;
+		}
+		
+		.CV .CV_right .hobby ul li i{
+			font-size: 50px;
+		}
+		
+		
+		.CV .CV_right .hobby ul li i{
+			position: relative;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+		}
+		
+	</style>
+	
+</head>
+
+<body>
+	
+	<div class = "CV">
+		<div class = "CV_left">
+			<div class = "CV_profil">
+				<img src="Yang.Alex.Foto.jpg" alt="AY" width="265" height="354">
+			</div>
+			<div class = "CV_content">
+				<div class = "CV_item info">
+					<div class  = "title">
+						<p class = "blod"> Alex Yang</p>
+						<p class = "regular"> Frontend-Punkt und Webentwickler </p>
+					</div>
+				</div>
+				<div class = "CV_item person">
+					<ul>
+						<li>
+							<div class = "icon"><i class="fas fa-home"></i></div>
+							<div class = "data">
+								Im windfeld 48a, Enger <br/> Enger 32130
+							</div>
+						</li>
+						<li>
+							<div class = "icon"><i class="fas fa-address-book"></i></div>
+							<div class = "data">
+								01713591738
+							</div>
+						</li>
+						<li>
+							<div class = "icon"><i class="fas fa-at"></i></div>
+							<div class = "data">
+								alex.yicheng.yang@gmail.com
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+				<div class = "CV_item skills">
+					<div class = "skills">
+						<div class  = "title">
+							<p class = "bold"> Programmierkenntnisse</p>
+						</div>
+						<li>
+							HTML5<span class= "bar"><span class = "html"></span></span>
+						</li>		
+						<li>
+							CSS3<span class= "bar"><span class = "css"></span></span>
+						</li>		
+						<li>
+							JavaScript<span class= "bar"><span class = "js"></span></span>
+						</li>		
+						
+					</div>
+				</div>
+				<div class = "Sozial">
+					<div class = "CV_item social">
+						<div class = "title">
+							<p class = "bold"> Sozial</p>
+						</div>
+						<ul>
+							<li>
+								<div class ="icon">
+									<i class="fab fa-linkedin" aria-hidden = "true"></i>
+								</div>
+								<div class ="data">
+									<p class = "semi_bold">
+										LinkedIn
+									</p>
+									<p> https://www.linkedin.com/in/alex-yang-457a7a16b/ </p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>		
+		</div>
+		<div class = "CV_right">
+				<div class ="title">
+					<p class ="Job"> Berufserfahrungen</p>
+				</div>
+				<div class = "CV_item work">
+					<ul>
+						<li>
+							<div class = "date"> 07.2019 - 12.2019</div>
+							<div class = "info">
+								<p class = "semi-bol">Msg Systems AG, Ismaing
+								<br/> Associate Business Consultant im Bereich Business Intelligence
+								<br/>
+								<br/>
+								<div class = "second_ul">
+									<ul>
+										<li> IT Projektmanagement</li>
+										<li> Advanced Analytics</li>
+										<li> Daten Analyse</li>
+										<li> Dashboard erstellen</li>
+									</ul>
+								</div></p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			<div class ="title">
+					<p class ="studium"> Studium</p>
+			</div>
+			<div class = "CV_item education">
+				
+					<ul>
+						<li>
+							<div class = "date"> 10.2016 - 02.2019</div>
+							<div class = "info">
+								<p class = "semi-bol">Fachhochschule Bielefeld
+								<br/>
+								<div class = "second_ul">
+									<ul>
+										<li> Abschluss: Master of Science</li>
+										<li> Studiengang: Wirtschaftsinformatik</li>
+										
+									</ul>
+								</div></p>
+								</div>
+								<br/>
+								<div class = "date"> 10.2012 - 08.2016</div>
+								<div class = "info">
+								<p class = "semi-bol">Fachhochschule Bielefeld
+								<br/>
+								<div class = "second_ul">
+									<ul>
+										<li> Abschluss: Bachelor of Science</li>
+										<li> Studiengang: Angewandte Mathematik</li>
+										
+									</ul>
+								</div></p>
+							</div>
+						</li>
+					</ul>
+			</div>
+			<div class ="title">
+					<p class ="praktika"> Praktika</p>
+			</div>
+			<div class = "CV_item praktika">
+			<ul>
+						<li>
+							<div class = "date"> 04.2018 - 10.2018</div>
+							<div class = "info">
+								<p class = "semi-bol">Digital Ratio GmbH, Eschborn
+								<br/>
+								<div class = "second_ul">
+									<ul>
+										<li> Entwicklung der Architektur des Chatbots</li>
+										<li> Erstellen von Prototypen</li>
+										<li> Qualitätssicherung und Test</li>
+										<li> Entwicklung mit Graphdatenbank</li>
+										<li> Datenverarbeitung</li>
+									</ul>
+								</div></p>
+								</div>
+								<br/>
+								<div class = "date"> 08.2015 - 10.2015</div>
+								<div class = "info">
+								<p class = "semi-bol">Siemens AG, Ruhstorf a.d.Rott
+								<br/>
+								<div class = "second_ul">
+									<ul>
+										<li> Daten Analyse</li>
+										<li> Erstellen von Abfragen in SAP</li>
+										<li> Erstellen von Abfragen in Microsoft Access</li>
+										<li> &Uumlberpr&uumlfung und Optimieurng von Lasertrackerdaten</li>
+									</ul>
+								</div></p>
+							</div>
+						</li>
+					</ul>
+			</div>
+			<div class="CV_item hobby">
+			  <div class="title">
+				   <p class="bold">Hobby</p>
+				 </div>
+			   <ul>
+				 <li><i class="fas fa-gamepad"></i></li>
+				 <li><i class="fas fa-music"></i></li>
+				 <li><i class="fas fa-basketball-ball"></i></li>
+				 <li><i class="fas fa-code"></i></li>
+			  </ul>
+			</div>
+
+	</div>
+	
+	
+	
+</body>
+</html>
